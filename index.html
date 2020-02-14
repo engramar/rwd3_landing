@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="./img/drumslogo.png"
+        alt="original trombones logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#hero">Home</a></li>
+        <li><a class="nav-link" href="#how-it-works">Video</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+      <h2>Purple Drum Kit (Limited Edition)</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="get started" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+
+    <section id="heroimg">
+      <div class="grid">
+        <figure id="=heroimage-div">
+          <img
+              id="heroimage"
+              src="./img/herodrum.jpg"
+              alt="herodrum image"
+          />
+        </figure>
+      </div>
+    </section> 
+
+    <section id="how-it-works">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6Y2PgRvoPQM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">Basic</div>
+        <h2>$3,600</h2>
+        <ol>
+          <li>Perfect for beginners</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Intermediate</div>
+        <h2>$6,500</h2>
+        <ol>
+          <li>Just right for more advanced drummers</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Expert</div>
+        <h2>$12,500</h2>
+        <ol>
+          <li>Great for heavy metal and grunge</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+
+
+    <footer>
+      <ul>
+        <li><a href="https://github.com/engramar/rwd3_landing" target="_blank">View Source Code</a></li>
+      </ul>
+      <span>Copyright 2020, Code.Sydney Pty Ltd</span>
+
+    </footer>
+
+  </div>
+</div>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
